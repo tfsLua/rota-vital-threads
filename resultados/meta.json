@@ -1,0 +1,61 @@
+{
+  "info": {
+    "servidor": "Spring Boot + Tomcat embutido",
+    "nucleosDisponiveis": 12,
+    "java": "21.0.12",
+    "jvm": "Java HotSpot(TM) 64-Bit Server VM",
+    "sistemaOperacional": "Windows 11 amd64",
+    "heapMaximoMb": 2048,
+    "argumentosJvm": [
+      "-Xms1g",
+      "-Xmx2g"
+    ],
+    "basesCarregadas": [
+      1000000,
+      100000
+    ]
+  },
+  "data": "2026-09-22T15:37:19",
+  "reps": 5,
+  "hospitais": 1000,
+  "candidatos_por_insumo": 209.6,
+  "bases": {
+    "100000": {
+      "requisicoes": 100000,
+      "hospitais": 1000,
+      "insumos": 30,
+      "mediaHospitaisCandidatosPorInsumo": 209.6,
+      "seed": 42,
+      "jaEstavaEmCache": true,
+      "tempoMs": 1.1763
+    },
+    "1000000": {
+      "requisicoes": 1000000,
+      "hospitais": 1000,
+      "insumos": 30,
+      "mediaHospitaisCandidatosPorInsumo": 209.6,
+      "seed": 42,
+      "jaEstavaEmCache": true,
+      "tempoMs": 0.0654
+    }
+  },
+  "divergencias": [],
+  "demo_race": {
+    "requisicoes": 100000,
+    "atendiveis_sequencial": 87838,
+    "tentativas": [
+      {
+        "atendiveis": 87625,
+        "igual": false
+      },
+      {
+        "atendiveis": 87574,
+        "igual": false
+      },
+      {
+        "atendiveis": 87525,
+        "igual": false
+      }
+    ]
+  }
+}

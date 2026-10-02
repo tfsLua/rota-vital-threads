@@ -1,0 +1,10 @@
+target/
+estruturas-c/build/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
